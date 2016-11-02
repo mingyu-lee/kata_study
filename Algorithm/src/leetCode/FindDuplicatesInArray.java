@@ -54,5 +54,4 @@ public List<Integer> findDuplicates(int[] nums) {
 		 nums[index] = -nums[index];
 	 }
 	 return res;  
-  
 */

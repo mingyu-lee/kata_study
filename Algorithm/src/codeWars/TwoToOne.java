@@ -2,7 +2,6 @@ package codeWars;
 
 import static org.junit.Assert.*;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,7 +9,7 @@ import java.util.List;
 import org.junit.Test;
 
 /**
- * Take 2 strings s1 and s2 including only letters from ato z. 
+ * Take 2 strings s1 and s2 including only letters from a to z. 
  * Return a new sorted string, the longest possible, 
  * containing distinct letters,
  *  - each taken only once - coming from s1 or s2.

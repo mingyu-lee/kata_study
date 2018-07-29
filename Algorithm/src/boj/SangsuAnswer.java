@@ -1,6 +1,8 @@
 package boj;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * https://www.acmicpc.net/problem/2908
@@ -26,9 +28,9 @@ import java.util.Scanner;
  * Output > 437
  */
 public class SangsuAnswer {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String[] inputs = sc.nextLine().split(" ");
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String[] inputs = br.readLine().split(" ");
         int maxNumber = 0;
 
         for (int i = 0; i < inputs.length; i++) {

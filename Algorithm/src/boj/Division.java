@@ -1,6 +1,8 @@
 package boj;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * A/B를 계산하시오.
@@ -12,10 +14,10 @@ import java.util.Scanner;
  * @ref https://www.acmicpc.net/problem/1008
  */
 public class Division {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		double a = sc.nextInt();
-		double b = sc.nextInt();
+	public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		double a = Double.parseDouble(br.readLine());
+        double b = Double.parseDouble(br.readLine());
 		StringBuffer ret = new StringBuffer(String.valueOf(a/b));
 		int remainderLen = 0;
 		do {

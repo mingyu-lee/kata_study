@@ -38,7 +38,7 @@ public class OrderAge {
         }
 
         Arrays.sort(inputs, (x, y) -> {
-           if (x[0] == y[0]) {
+           if (x[0].equals(y[0])) {
                return Integer.compare(Integer.parseInt(x[2]), Integer.parseInt(y[2]));
            }
             return Integer.compare(Integer.parseInt(x[0]), Integer.parseInt(y[0]));

@@ -1,12 +1,12 @@
 package codeWars;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  * Take 2 strings s1 and s2 including only letters from a to z. 

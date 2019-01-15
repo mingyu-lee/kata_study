@@ -16,8 +16,8 @@ public class Encrypt02 {
         Arrays.sort(numbers);
         numbers[0]++;
 
-        for (int i = 0; i < numbers.length; i++) {
-            ans *= numbers[i];
+        for (int number : numbers) {
+            ans *= number;
         }
 
         return ans;
